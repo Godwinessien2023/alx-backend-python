@@ -1,13 +1,7 @@
-#!/usr/bin/python3
-"""
-A type-annotated function
-"""
+#!/usr/bin/env python3
+"""Contains a single function that concatenates two strings."""
 
 
 def concat(str1: str, str2: str) -> str:
-    """
-    A type-annotated function concat that takes
-    two strings str1 and str2 as arguments and
-    returns a concatenated string
-    """
+    """Concatenates two strings."""
     return str1 + str2
